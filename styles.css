@@ -3,7 +3,8 @@
 /* color 1 */
 .site-main,
 .site-nav__item__container:hover,
-.site-nav__item[data-active='true'].site-nav__item--leaf>.site-nav__item__container {
+.site-nav__item[data-active='true'].site-nav__item--leaf>.site-nav__item__container,
+.menu__list__item > a:hover {
   background-color: #1e2126 !important;
 }
 
