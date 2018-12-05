@@ -39,8 +39,8 @@ background-color: #3a3a3a !important;
 #js--friends-widget .module,
 header,
 .site-sidebar,
-.site-header__logo flex-grid flex-grid--center-both,
-.site-header__user flex-grid flex-grid--center-both,
+.site-header__logo.flex-grid.flex-grid--center-both,
+.site-header__user.flex-grid.flex-grid--center-both,
 #js--widget-button
 {
   border-color: #1e2126 !important;
