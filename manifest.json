@@ -1,6 +1,6 @@
 {
     "name": "Flatiron Dark",
-    "version": "1.0",
+    "version": "1.01",
     "description": "Always Dark at learn.co",
     "permissions": ["storage"],
     "page_action": {
