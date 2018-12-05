@@ -12,7 +12,9 @@
 #js--widget-button,
 .module__head,
 .module__head + .module__body,
-.module__foot
+.module__foot,
+.menu.site-nav-wrapper,
+.menu__list
 {
   background-color: #292c33 !important;
 }
@@ -24,7 +26,8 @@
 
 
 .module__head.util--text-align-c,
-.module.module--lilypad {
+.module.module--lilypad,
+.menu__head.media-block.media-block--side-alt {
 background-color: #3a3a3a !important;
 }
 
@@ -32,7 +35,8 @@ background-color: #3a3a3a !important;
   display: none !important;
 }
 
-.site-subheader {
+.site-subheader,
+.menu__head.media-block.media-block--side-alt {
   color: white !important;
 }
 
