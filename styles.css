@@ -1,10 +1,20 @@
 
-.site-main {
-  background-color: #1e2126 !important;
-  color: white !important;
+
+/* color 1 */
+.site-main,
+.site-sidebar__actions,
+#js--friends-widget .module,
+header,
+.site-sidebar,
+.site-header__logo.flex-grid.flex-grid--center-both,
+.site-header__user.flex-grid.flex-grid--center-both,
+#js--widget-button
+{
+  border-color: #1e2126 !important;
 }
 
 
+/* color 2 */
 .site-header,
 .site-subheader,
 .site-sidebar,
@@ -20,45 +30,47 @@
 }
 
 
-.module.module--highlight {
-  background-color: #555 !important;
-}
-
-
+/* color 3 */
 .module__head.util--text-align-c,
 .module.module--lilypad,
 .menu__head.media-block.media-block--side-alt {
 background-color: #3a3a3a !important;
 }
 
-.module__head:after {
-  display: none !important;
+
+/* color 4 */
+.module.module--highlight {
+  background-color: #555 !important;
 }
 
+
+/* color 5 */
+footer {
+  background-color: #222 !important;
+}
+
+
+/* text 1 */
+.site-main,
 .site-subheader,
 .menu__head.media-block.media-block--side-alt {
   color: white !important;
 }
 
-.site-sidebar__actions,
-#js--friends-widget .module,
-header,
-.site-sidebar,
-.site-header__logo.flex-grid.flex-grid--center-both,
-.site-header__user.flex-grid.flex-grid--center-both,
-#js--widget-button
-{
-  border-color: #1e2126 !important;
-}
 
+/* code highlights */
 code {
   background-color: darkseagreen !important;
 }
 
+
+/* code blocks */
 .highlight {
   background-color: #333 !important;
 }
 
-footer {
-  background-color: #222 !important;
+
+/* hide shadowing on dashboard elements */
+.module__head:after {
+  display: none !important;
 }
