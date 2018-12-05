@@ -10,6 +10,7 @@
 .site-sidebar,
 #js--friends-widget .module,
 #js--widget-button,
+.module__head,
 .module__head + .module__body,
 .module__foot
 {
