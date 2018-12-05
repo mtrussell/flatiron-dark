@@ -1,7 +1,9 @@
 
 
 /* color 1 */
-.site-main {
+.site-main,
+.site-nav__item__container:hover,
+.site-nav__item[data-active='true'].site-nav__item--leaf>.site-nav__item__container {
   background-color: #1e2126 !important;
 }
 
@@ -79,3 +81,7 @@ code {
 .module__head:after {
   display: none !important;
 }
+
+
+
+/* light blue #00BCE1 */
