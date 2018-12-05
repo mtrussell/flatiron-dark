@@ -1,16 +1,8 @@
 
 
 /* color 1 */
-.site-main,
-.site-sidebar__actions,
-#js--friends-widget .module,
-header,
-.site-sidebar,
-.site-header__logo.flex-grid.flex-grid--center-both,
-.site-header__user.flex-grid.flex-grid--center-both,
-#js--widget-button
-{
-  border-color: #1e2126 !important;
+.site-main {
+  background-color: #1e2126 !important;
 }
 
 
@@ -55,6 +47,19 @@ footer {
 .site-subheader,
 .menu__head.media-block.media-block--side-alt {
   color: white !important;
+}
+
+
+/* borders */
+.site-sidebar__actions,
+#js--friends-widget .module,
+header,
+.site-sidebar,
+.site-header__logo.flex-grid.flex-grid--center-both,
+.site-header__user.flex-grid.flex-grid--center-both,
+#js--widget-button
+{
+  border-color: #1e2126 !important;
 }
 
 
