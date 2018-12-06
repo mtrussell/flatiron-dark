@@ -46,10 +46,14 @@ footer {
 
 
 /* text 1 */
-.site-main,
 .site-subheader,
 .menu__head.media-block.media-block--side-alt {
   color: white !important;
+}
+
+
+.site-main {
+  color: #bbb !important;
 }
 
 
@@ -66,15 +70,25 @@ header,
 }
 
 
-/* code highlights */
-code {
-  background-color: darkseagreen !important;
-}
-
-
 /* code blocks */
 .highlight {
   background-color: #333 !important;
+  color: white;
+}
+
+
+/* code highlights */
+p > code,
+li > code {
+  background-color: darkseagreen !important;
+  color: #222 !important;
+}
+
+
+/* numbered circles */
+.text-block--readme > ol li:before {
+  color: lightgreen !important;
+  background-color: #565656 !important;
 }
 
 
