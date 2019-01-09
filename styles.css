@@ -13,6 +13,7 @@
 .site-header,
 .site-subheader,
 .site-sidebar,
+.site-sidebar--fixed,
 #js--friends-widget .module,
 #js--widget-button,
 .module__head,
@@ -62,6 +63,7 @@ footer {
 #js--friends-widget .module,
 header,
 .site-sidebar,
+.site-sidebar--fixed,
 .site-header__logo.flex-grid.flex-grid--center-both,
 .site-header__user.flex-grid.flex-grid--center-both,
 #js--widget-button
@@ -100,3 +102,19 @@ li > code {
 
 
 /* light blue #00BCE1 */
+
+/* makes the DM area dark */
+.fc--dm-panel > div,
+.fc--dm-panel > ul
+ {
+  background-color: #333;
+  color: #bbb;
+}
+
+/* adjusts the vertical size and scroll bar of the DM input box */
+textarea[id="js--dm-txt-input"] {
+  height: 5em !important;
+  overflow-y: auto;
+  background-color: #555;
+  color: #ddd;
+}
